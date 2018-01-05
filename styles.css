@@ -1,0 +1,48 @@
+.task-column {
+  border: 1px solid #999999;
+  font: arial;
+  display: inline-block;
+  width: 18%;
+  text-align: center;
+  background: #999999;
+  min-height: 80vh;
+  vertical-align: top;
+  
+}
+
+h3 {
+  font: bold 19px arial, sans-serif;
+  margin: 2px;
+  padding: 10px;
+  background: #999999; 
+  color: aliceblue;
+}
+
+.card {
+  border: 1px solid #999999;
+  margin: 1px;
+  position: relative;
+  background: lightgrey;
+}
+
+input {
+  display: block;
+}
+
+.moveTaskButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+}
+
+.deleteTaskButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body {
+  background: lightblue;
+  font-family: 'Lato';
+}
